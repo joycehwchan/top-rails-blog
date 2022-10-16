@@ -36,15 +36,16 @@ body {
 }
 
 main {
-  margin: 1rem 8rem 1rem;
+  margin: 1rem 12rem 1rem;
+  padding: 2rem;
   /* flex */
   display: flex;
   flex-direction: column;
   flex: 1;
   align-items: center;
-
   gap: 20px;
   justify-content: first baseline;
+  /* background-color: aquamarine; */
 }
 
 h1 {
@@ -70,6 +71,26 @@ h4 {
 p {
   font-size: 1rem;
   font-weight: 400;
+}
+
+form {
+  font-family: "Quicksand", sans-serif;
+}
+
+button, input[type=submit] {
+  margin: 1rem;
+  padding: 0.25rem 0.8rem 0.25rem;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+}
+
+button:hover, input[type=submit]:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  scale: 1.025;
 }
 
 /* footer */
