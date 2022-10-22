@@ -7,5 +7,9 @@ Step by step guide: [Rails Guide](https://guides.rubyonrails.org/getting_started
 ## Run the app
 
 - Run the `bin/rails server` in the `blog` directory
-
 - Then open a browser window and navigate to `http://localhost:3000`
+
+## Log in
+
+- Username: `odinproject`
+- Password: `password`
